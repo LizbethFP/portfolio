@@ -1,23 +1,47 @@
 /* Clases reutilizables */
 body {
   font-family: 'Nunito', sans-serif;
+  background-color: #CFD0D1;
+}
+
+header .hdr-bck-grnd-color {
+  background-color: #00BBD4!important;
+}
+
+footer {
+  background-color: #82A9C6;
 }
 
 /* Clases específicas */
+#profile {
+  background-color: #98D7E3;
+}
+
 .mx-height-img {
   max-height: 255px;
+}
+
+.about-me-info-box {
+  background-color: #F7FAFA;
+  border: 1px solid  #AAABAC;
+  padding: 15px;
+}
+
+.rounded-top {
+  border: 1px solid #AAABAC;
+  background-color: #F7FAFA;
+}
+
+.btn-style {
+  color: #F7FAFA;
+  background-color: #00BBD4;
+  padding: .375rem .75rem;
+  border-radius: .25rem;
 }
 
 .fa-certificate {
   margin-right: 0.4em;
   font-size: 25px;
-}
-
-.btn-style {
-  color: white;
-  background-color: black;
-  padding: .375rem .75rem;
-  border-radius: .25rem;
 }
 
 #contact .fa-envelope-o {
