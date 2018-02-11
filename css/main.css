@@ -12,3 +12,18 @@ body {
   margin-right: 0.4em;
   font-size: 25px;
 }
+
+.btn-style {
+  color: white;
+  background-color: black;
+  padding: .375rem .75rem;
+  border-radius: .25rem;
+}
+
+#contact .fa-envelope-o {
+  font-size: 20px;
+}
+
+#contact .fa-mobile {
+  font-size: 30px;
+}
