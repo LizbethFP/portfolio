@@ -61,11 +61,11 @@ footer {
   color: #648F98;
 }
 
-.email {
+.email, .portfolio-link {
   color: #DC80A3;
 }
 
-.email:hover {
+.email:hover, .portfolio-link:hover {
   color: #B56986;
 }
 
