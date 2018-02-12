@@ -20,7 +20,7 @@
         'position': 'absolute',
         'font-size': '20px',
         'margin-top': '-30%',
-        'margin-left': '2%',
+        'margin-left': '15%',
       // 'tranform': 'translate(60, -50px)'
       });
 
