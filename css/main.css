@@ -25,6 +25,16 @@ footer {
   letter-spacing: 0.5px;
 }
 
+.no-gutters {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 /* Clases específicas */
 .nav-link-color {
   color: #fff!important;
