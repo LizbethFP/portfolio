@@ -134,12 +134,15 @@ footer p {
 }
 
 @media (min-width: 992px) {
+  .navbar-nav li:hover a {
+  border-radius: 25px 0px 25px 0px;
+  }
+
   #hero {
     min-height: 650px;
   }
 
-  .navbar-nav li:hover a {
-  border-radius: 25px 0px 25px 0px;
-}
-  
+  #tech-skills {
+    padding-left: 6em;
+  }  
 }
