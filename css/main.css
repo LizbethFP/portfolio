@@ -1,7 +1,7 @@
 /* Clases reutilizables */
 body {
   font-family: 'Nunito', sans-serif;
-  background-color: #CFD0D1;
+  background-color: #fff;
 }
 
 header .hdr-bck-grnd-color {
@@ -9,46 +9,84 @@ header .hdr-bck-grnd-color {
 }
 
 footer {
-  background-color: #82A9C6;
+  background-color: #333333;
+}
+
+/* helpers */
+.ltr-spc-titles {
+  letter-spacing: 2px;
+}
+
+.ltr-spc-subtitles {
+  letter-spacing: 1px;
+}
+
+.ltr-spc-text {
+  letter-spacing: 0.5px;
 }
 
 /* Clases específicas */
-#profile {
-  background-color: #98D7E3;
+.nav-link-color {
+  color: #fff!important;
+}
+
+.navbar-nav li:hover a {
+  background-color: #48E5C2;
+}
+
+#hero {
+  background-image: url(../assets/images/hero.jpg);
+  background-position: center center;
+  background-size: cover;
+  /* background-color: rgba(0,0,0,0.1);; */
+}
+
+#hero h1, #hero h3 {
+  color: #EAEAEA;
 }
 
 .mx-height-img {
   max-height: 255px;
 }
 
-.about-me-info-box {
-  background-color: #F7FAFA;
-  border: 1px solid  #AAABAC;
-  padding: 15px;
+#about-me  {
+  background-color: #48E5C2;
 }
 
 .rounded-top {
-  border: 1px solid #AAABAC;
+  border: 1px solid #fff;
   background-color: #F7FAFA;
 }
 
 .btn-style {
   color: #F7FAFA;
-  background-color: #00BBD4;
+  background-color: #48E5C2;
   padding: .375rem .75rem;
   border-radius: .25rem;
+}
+
+.odd-btn .btn-style:nth-child(odd) {
+  background-color: #124E78;
 }
 
 .btn-style:hover {
   text-decoration: none;
   color: #F7FAFA;
-  background-color: #45CDDF;
+  background-color: #69E9CD;
 }
 
-.fa-certificate {
-  color: #ACA600;
-  font-size: 35px;
-  margin-right: 0.4em;
+.odd-btn .btn-style:nth-child(odd):hover {
+  text-decoration: none;
+  color: #F7FAFA;
+  background-color: #527E9C;
+}
+
+#tech-skills {
+  background-color: #124E78;
+}
+
+#tech-skills h2 {
+  color: #fff;
 }
 
 #contact .fa-envelope-o {
@@ -61,18 +99,37 @@ footer {
   color: #648F98;
 }
 
-.email, .portfolio-link {
-  color: #DC80A3;
-}
-
-.email:hover, .portfolio-link:hover {
-  color: #B56986;
-}
-
 a.btn-up {
   /* background: linear-gradient(-100deg, #F59C98, rgb(252, 187, 186)); */
-  background: #00BBD4;
+  background: #48E5C2;
   border-radius: 50%;
   color: #ffff;
   padding: 10px 20px;
+}
+
+a.btn-up:hover {
+  background: #69E9CD;
+}
+
+footer p {
+  color: #bbb;
+}
+
+.email, .portfolio-link {
+  color: #42D1B1;
+}
+
+.email:hover, .portfolio-link:hover {
+  color: #35A78E;
+}
+
+@media (min-width: 992px) {
+  #hero {
+    min-height: 650px;
+  }
+
+  .navbar-nav li:hover a {
+  border-radius: 25px 0px 25px 0px;
+}
+  
 }
