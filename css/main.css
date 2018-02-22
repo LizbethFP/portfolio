@@ -8,6 +8,12 @@ header .hdr-bck-grnd-color {
   background-color: #333333!important;
 }
 
+.block hr {
+  background-color: #124E78;
+  width: 25%;
+  height: 3px;
+}
+
 footer {
   background-color: #333333;
 }
@@ -25,6 +31,19 @@ footer {
   letter-spacing: 0.5px;
 }
 
+.md-line-height {
+  line-height: 28px;
+}
+
+.sm-line-height {
+  line-height: 26px;
+}
+
+.white-highlight-txt {
+  color: #fff;
+  font-size: 1.2em;
+}
+
 .no-gutters {
   margin-left: 0;
   margin-right: 0;
@@ -37,7 +56,7 @@ footer {
 
 /* Clases específicas */
 .nav-link-color {
-  color: #fff!important;
+  color: #EAEAEA!important;
 }
 
 .navbar-nav li:hover a {
@@ -51,16 +70,31 @@ footer {
   /* background-color: rgba(0,0,0,0.1);; */
 }
 
-#hero h1, #hero h3 {
+#hero > h1, h3 {
   color: #EAEAEA;
 }
 
+.aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aligner-item {
+  max-width: 100%;
+  display: block;
+}
+
 .mx-height-img {
-  max-height: 255px;
+  max-height: 355px;
 }
 
 #about-me  {
   background-color: #48E5C2;
+}
+
+.mt-project {
+  margin-top: 1.5rem;
 }
 
 .rounded-top {
@@ -135,14 +169,37 @@ footer p {
 
 @media (min-width: 992px) {
   .navbar-nav li:hover a {
-  border-radius: 25px 0px 25px 0px;
+    border-radius: 25px 0px 25px 0px;
   }
 
   #hero {
     min-height: 650px;
   }
 
-  #tech-skills {
-    padding-left: 6em;
-  }  
+  #about-me, #tech-skills {
+    min-height: 600px;
+  }
+
+  .md-line-height {
+    line-height: 34px;
+  }
+
+  .mt-project {
+    margin-top: 0;
+  }
+
+  .tech-patch-mx-height {
+    max-height: 400px;
+    max-width: 150px;
+  }
+
+  .interest-img-mx-height {
+    max-height: 280px;
+    /* max-width: 340px; */
+  }
+
+  #contact {
+    min-height: 300px;
+  }
+
 }
