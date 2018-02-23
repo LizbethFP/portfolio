@@ -1,7 +1,7 @@
 /* Clases reutilizables */
 body {
-  font-family: 'Nunito', sans-serif;
   background-color: #fff;
+  font-family: 'Nunito', sans-serif;
 }
 
 header .hdr-bck-grnd-color {
@@ -10,8 +10,8 @@ header .hdr-bck-grnd-color {
 
 .block hr {
   background-color: #124E78;
-  width: 25%;
   height: 3px;
+  width: 25%;
 }
 
 footer {
@@ -75,14 +75,14 @@ footer {
 }
 
 .aligner {
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: center;
 }
 
 .aligner-item {
-  max-width: 100%;
   display: block;
+  max-width: 100%;
 }
 
 .mx-height-img {
@@ -98,15 +98,15 @@ footer {
 }
 
 .rounded-top {
-  border: 1px solid #fff;
   background-color: #F7FAFA;
+  border: 1px solid #fff;
 }
 
 .btn-style {
   color: #F7FAFA;
   background-color: #48E5C2;
-  padding: .375rem .75rem;
   border-radius: .25rem;
+  padding: .375rem .75rem;
 }
 
 .odd-btn .btn-style:nth-child(odd) {
@@ -114,15 +114,15 @@ footer {
 }
 
 .btn-style:hover {
-  text-decoration: none;
-  color: #F7FAFA;
   background-color: #69E9CD;
+  color: #F7FAFA;
+  text-decoration: none;
 }
 
 .odd-btn .btn-style:nth-child(odd):hover {
-  text-decoration: none;
-  color: #F7FAFA;
   background-color: #527E9C;
+  color: #F7FAFA;
+  text-decoration: none;
 }
 
 #tech-skills {
@@ -134,13 +134,13 @@ footer {
 }
 
 #contact .fa-envelope-o {
-  font-size: 20px;
   color: #648F98;
+  font-size: 20px;
 }
 
 #contact .fa-mobile {
-  font-size: 30px;
   color: #648F98;
+  font-size: 30px;
 }
 
 a.btn-up {
