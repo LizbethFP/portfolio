@@ -1,220 +1,239 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <!-- Viewport -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <!-- Evita escala zoom -->
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- link a bootstrap 4 -->
-    <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
-    <!-- link a fontawesome  -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- link de googlefonts -->
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-    <!-- link para ícono que va en pestaña superior  -->
-     <!-- <link rel="shortcut icon" type="image/x-icon" href="assets/icons/favicon/"> -->
-     <!-- link main CSS -->
-     <link rel="stylesheet" href="css/main.css">
-     <!-- Título de pestaña -->
-     <title>Portfolio - Lizbeth Félix Peña</title>
-  </head>
-  <body>
-    <header>
-      <nav class="navbar navbar-expand-md bg-dark navbar-dark hdr-bck-grnd-color">
-        <!-- Brand -->
-        <a class="navbar-brand" href="#">LFP</a>
 
-        <!-- Toggler/collapsibe Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+<head>
+  <meta charset="utf-8">
+  <!-- Viewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <!-- Evita escala zoom -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- link a bootstrap 4 -->
+  <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+  <!-- link a fontawesome  -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- link de googlefonts -->
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+  <!-- link para ícono que va en pestaña superior  -->
+  <!-- <link rel="shortcut icon" type="image/x-icon" href="assets/icons/favicon/"> -->
+  <!-- link main CSS -->
+  <link rel="stylesheet" href="css/main.css">
+  <!-- Título de pestaña -->
+  <title>Portfolio - Lizbeth Félix Peña</title>
+</head>
 
-        <!-- Navbar links -->
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-            <a class="nav-link nav-link-color" href="#about-me"><i class="fa fa-user-circle d-sm-none" aria-hidden="true"></i> About me</a>
-            </li>
-            <li class="nav-item">
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark hdr-bck-grnd-color">
+      <!-- Brand -->
+      <a class="navbar-brand" href="#">LFP</a>
+
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link nav-link-color" href="#about-me">
+              <i class="fa fa-user-circle d-sm-none" aria-hidden="true"></i> About me</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link nav-link-color" href="#projects">My projects</a>
-            </li>
-            <li class="nav-item">
+          </li>
+          <li class="nav-item">
             <a class="nav-link nav-link-color" href="#tech-skills">My tech skills</a>
-            </li>
-            <li class="nav-item">
+          </li>
+          <li class="nav-item">
             <a class="nav-link nav-link-color" href="#interests">My interests</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link nav-link-color" href="#contact"><i class="fa fa-envelope d-sm-none" aria-hidden="true"></i> Contact me</a>
-            </li>
-          </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-color" href="#contact">
+              <i class="fa fa-envelope d-sm-none" aria-hidden="true"></i> Contact me</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+  </header>
+
+  <main>
+    <section class="d-flex align-items-center py-5" id="hero">
+      <div class="col-12">
+        <h1 class="text-center main-title">Lizbeth Félix Peña</h1>
+        <h3 class="text-center mt-3 sub-title">Front-end developer and language fanatic</h3>
+        <!-- <h3 class="text-center mini-title">"Before software can be reusable, it first has to be usable". - Ralph Johnson -->
+      </div>
+    </section>
+
+    <section class="container-fluid py-4" id="about-me">
+      <div class="row">
+        <h2 class="col-12 text-center my-5 about-me-title font-weight-bold titles ltr-spc-titles">About me</h2>
+      </div>
+      <div class="row mt-4">
+        <p class="offset-1 col-10 col-md-4 offset-md-2 text-justify mb-5 content ltr-spc-text about-me-info">I’m a Front-end Developer from Laboratoria, and a professional Translator and Interpreter. I love making sure everything
+          works in a website or application so people can best benefit from it.
+          <span class="white-highlight-txt">Technology and its use towards helping people are the two things that thrill me and move me the most!</span> I’m
+          a dynamic and flexible person who loves teamwork and finds inspiration and drive through people's joy and uplifting
+          music.
+        </p>
+        <div class="imgabout">
+          <img src="assets/images/rsz-lizbeth-felix.jpg" alt="Junior Front-end Developer" class="img-fluid rounded" id="profile-photo">
         </div>
-      </nav>
+      </div>
+    </section>
 
-    </header>
-
-    <main>
-      <section class="d-flex flex-column justify-content-around py-5" id="hero">
-          <h1 class="text-center main-title">Lizbeth Félix Peña</h1>
-          <h3 class="text-center sub-title">Front-end developer and language fanatic</h3>
-          <h3 class="text-center mini-title">"Before software can be reusable, it first has to be usable". - Ralph Johnson
-          
-         </div>
-      </section>
-        
-      <section class="container-fluid py-4" id="about-me">
+    <section class="container-fluid my-5" id="projects">
+      <div class="row">
+        <h2 class="col-12 text-center font-weight-bold mb-4 titles ltr-spc-titles">My projects</h2>
+        <!-- cambiar a container!!! -->
+        <div class="container-fluid">
           <div class="row">
-            <h2 class="col-8 offset-2 col-sm-4 offset-sm-4 col-md-3 offset-md-5 my-5 about-me-title font-weight-bold titles ltr-spc-titles">About me</h2>
-          </div>
-          <div class="row mt-4">
-            <p class="offset-1 col-10 col-md-4 offset-md-2 text-justify mb-5 content ltr-spc-text about-me-info">I’m a Front-end Developer from Laboratoria, and a professional Translator and Interpreter. I love making sure everything works in a website or application so people can best benefit from it. <span class="white-highlight-txt">Technology and its use towards helping people are the two things that thrill me and move me the most!</span> I’m a dynamic and flexible person who loves teamwork and finds inspiration and drive through people's joy and uplifting music.</p>
-            <img src="assets/images/rsz-lizbeth-felix.jpg" alt="Junior Front-end Developer" class="offset-2 col-8 col-md-3 offset-md-1 img-fluid rounded mx-height-img" id="profile-photo">
-          </div>
-      </section>
-
-      <section class="container-fluid my-5" id="projects">
-        <h2 class="my-5 text-center font-weight-bold mb-4 titles ltr-spc-titles">My projects</h2>
-        <div class="row">
-          <div class="col-10 offset-1 col-lg-3 offset-lg-1 pb-4 rounded-top container-img">
-            <h4 class="text-center pt-2 ltr-spc-subtitles">Twitter</h4>
-            <hr>
-            <img src="https://www.marketingdirecto.com/wp-content/uploads/2014/10/HTML.jpg" alt="Social network" class="col-10 offset-1 rounded img-fluid">
-            <p class="text-justify mb-4 ltr-spc-text sm-line-height project-description">Twitter replica making posts with the current time. Project undertaken at an early stage of the bootcamp.
-            </p>
-            <div class="row">
-              <div class="col-3 offset-2 offset-md-4 offset-lg-1 offset-xl-2 odd-btn">
-                <a href="https://lizbethfp.github.io/twitter/" target="_blank" class="btn-style">Demo</a>
+            <div class="col-12 col-md-4 d-flex pb-4 mt-project container-img">
+              <div class="card rounded-top">
+                <div class="card-body">
+                  <h4 class="text-center pt-2 ltr-spc-subtitles">Twitter</h4>
+                  <hr>
+                  <img src="https://www.marketingdirecto.com/wp-content/uploads/2014/10/HTML.jpg" alt="Social network" class="col-10 offset-1 rounded img-fluid">
+                  <p class="mb-4 ltr-spc-text sm-line-height project-description">Twitter replica making posts with the current time. Project undertaken at an early stage of the bootcamp.
+                  </p>
+                  <div class="row">
+                    <div class="col-12 text-center">
+                      <a href="https://lizbethfp.github.io/twitter/" target="_blank" class="odd-btn btn-style m-2">Demo</a>
+                      <a href="https://github.com/LizbethFP/twitter" target="_blank" class="btn-style m-2">Code</a>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="col-3 offset-2 offset-md-0 offset-lg-2">
-                <a href="https://github.com/LizbethFP/twitter" target="_blank" class="btn-style">Code</a>
+            </div>
+            <div class="col-12 col-md-4 d-flex mt-project pb-4 container-img">
+              <div class="card rounded-top">
+                <div class="card-body">
+                  <h4 class="text-center pt-2 ltr-spc-subtitles">Foodmap</h4>
+                  <hr>
+                  <img src="https://www.marketingdirecto.com/wp-content/uploads/2014/10/HTML.jpg" alt="Ready to order?" class="col-10 offset-1 rounded img-fluid">
+                  <p class="mb-4 ltr-spc-text sm-line-height project-description">Food app showing relevant information on restaurants. Project undertaken at a middle stage of the bootcamp.
+                  </p>
+                  <div class="row">
+                    <div class="col-12 text-center">
+                      <a href="https://lizbethfp.github.io/foodmap/" target="_blank" class="odd-btn btn-style m-2">Demo</a>
+                      <a href="https://github.com/LizbethFP/foodmap" target="_blank" class="btn-style m-2">Code</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 d-flex mt-project pb-4 container-img">
+              <div class="card rounded-top">
+                <div class="card-body">
+                  <h4 class="text-center pt-2 ltr-spc-subtitles">Movie-geek</h4>
+                  <hr>
+                  <img src="https://www.marketingdirecto.com/wp-content/uploads/2014/10/HTML.jpg" alt="Great team work!" class="col-10 offset-1 rounded img-fluid">
+                  <p class="mb-4 ltr-spc-text sm-line-height project-description">Movie app allowing geeks keep a record on their movie interests and history, as well as rating them. Teamwork
+                    project undertaken at an internal hackathon.
+                  </p>
+                  <div class="row">
+                    <div class="col-12 text-center">
+                      <a href="https://shannonriv.github.io/movie-geek/" target="_blank" class="odd-btn btn-style m-2">Demo</a>
+                      <a href="https://github.com/LizbethFP/movie-geek" target="_blank" class="btn-style m-2">Code</a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-
-          <div class="col-10 offset-1 col-lg-3 offset-lg-1 mt-project pb-4 rounded-top container-img">
-            <h4 class="text-center pt-2 ltr-spc-subtitles">Foodmap</h4>
-            <hr>
-            <img src="https://www.marketingdirecto.com/wp-content/uploads/2014/10/HTML.jpg" alt="Ready to order?" class="col-10 offset-1 rounded img-fluid">
-            <p class="text-justify mb-4 ltr-spc-text sm-line-height project-description">Food app showing relevant information on restaurants. Project undertaken at a middle stage of the bootcamp.
-            </p>
-            <div class="row">
-              <div class="col-3 offset-2 offset-md-4 offset-lg-1 offset-xl-2 odd-btn">
-                <a href="https://lizbethfp.github.io/foodmap/" target="_blank" class="btn-style">Demo</a>
-              </div>
-              <div class="col-3 offset-2 offset-md-0 offset-lg-2">
-                <a href="https://github.com/LizbethFP/foodmap" target="_blank" class="btn-style">Code</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-10 offset-1 col-lg-3 offset-lg-1 mt-project pb-4 rounded-top container-img">
-            <h4 class="text-center pt-2 ltr-spc-subtitles">Movie-geek</h4>
-            <hr>
-            <img src="https://www.marketingdirecto.com/wp-content/uploads/2014/10/HTML.jpg" alt="Great team work!" class="col-10 offset-1 rounded img-fluid">
-            <p class="text-justify mb-4 ltr-spc-text sm-line-height project-description">Movie app allowing geeks keep a record on their movie interests and history, as well as rating them. Teamwork project undertaken
-            at an internal hackathon.
-            </p>
-            <div class="row">
-              <div class="col-3 offset-2 offset-md-4 offset-lg-1 offset-xl-2 odd-btn">
-                <a href="https://shannonriv.github.io/movie-geek/" target="_blank" class="btn-style">Demo</a>
-              </div>
-              <div class="col-3 offset-2 offset-md-0 offset-lg-2">
-                <a href="https://github.com/LizbethFP/movie-geek" target="_blank" class="btn-style">Code</a>
-              </div>
-            </div>
-          </div>
-
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="p-4" id="tech-skills">
-        <h2 class="my-5 text-center font-weight-bold  ltr-spc-titles tech-skills-title">My tech skills</h2>
-        <p class="text-center">Stack I work with:</p>
-        <div class="d-flex flex-row flex-wrap justify-content-around my-5">
-          <figure class="">
-            <img class="tech-patch-mx-height" src="assets/images/html5.png" alt="html5">
-            <figcaption class="mt-2 text-center">Html5</figcaption>
-          </figure>
-          <figure class="">
-            <img class="tech-patch-mx-height" src="assets/images/javascript512.png" alt="javascript">
-            <figcaption class="mt-2 text-center">Javascript</figcaption>
-          </figure>
-          <figure class="">
-            <img class="tech-patch-mx-height" src="assets/images/css.png" alt="css">
-            <figcaption class="mt-2 text-center">CSS3</figcaption>
-          </figure>
-          <figure class="">
-            <img class="tech-patch-mx-height" src="assets/images/jquery-512.png" alt="jquery">
-            <figcaption class="mt-2 text-center">jQuery</figcaption>
-          </figure>
-          <figure class="">
-            <img class="tech-patch-mx-height" src="assets/images/git.png" alt="git">
-            <figcaption class="mt-2 text-center">Git</figcaption>
-          </figure>
-          <figure class="">
-            <img class="tech-patch-mx-height" src="assets/images/github.png" alt="github">
-            <figcaption class="mt-2 text-center">Github</figcaption>
-          </figure>
-          <figure class="">
-            <img class="tech-patch-mx-height" src="assets/images/reactjs.png" alt="react js">
-            <figcaption class="mt-2 text-center">React</figcaption>
-          </figure>
-          <figure class="">
-            <img class="tech-patch-mx-height" src="assets/images/ajax-431.png" alt="ajax">
-            <figcaption class="mt-2 text-center">Ajax</figcaption>
-          </figure>
-          <figure class="">
-            <img class="tech-patch-mx-height" src="assets/images/json-426.png" alt="json">
-            <figcaption class="mt-2 text-center">Json</figcaption>
-          </figure>
-        </div>
-        <p class="text-center">Frameworks I work with:</p>
-        <div class="d-flex justify-content-center my-5">
-          <figure class="mr-5">
-            <img class="tech-patch-mx-height" src="assets/images/bootstrap.png" alt="bootstrap">
-            <figcaption class="mt-2 text-center">Bootstrap</figcaption>
-          </figure>
-          <figure class="">
-            <img class="tech-patch-mx-height" src="assets/images/materialize-838.png" alt="materialize">
-            <figcaption class="mt-2 text-center">Materialize</figcaption>
-          </figure>  
-        </div>
-        <p class="text-center">Code editors I work with:</p>
-        <div class="d-flex justify-content-center my-5">
-          <figure class="mr-5">
-            <img class="tech-patch-mx-height" src="assets/images/atom.png" alt="">
-            <figcaption class="mt-2 text-center">Atom</figcaption>
-          </figure>
-          <figure class="">
-            <img class="tech-patch-mx-height" src="assets/images/vscode-2000px.png" alt="">
-            <figcaption class="mt-2 text-center">Visual</figcaption>
-          </figure>
+    <section class="p-4" id="tech-skills">
+      <h2 class="my-5 text-center font-weight-bold  ltr-spc-titles tech-skills-title">My tech skills</h2>
+      <p class="text-center">Stack I work with:</p>
+      <div class="d-flex flex-row flex-wrap justify-content-around my-5">
+        <figure class="">
+          <img class="tech-patch-mx-height" src="assets/images/html5.png" alt="html5">
+          <figcaption class="mt-2 text-center">Html5</figcaption>
+        </figure>
+        <figure class="">
+          <img class="tech-patch-mx-height" src="assets/images/javascript512.png" alt="javascript">
+          <figcaption class="mt-2 text-center">Javascript</figcaption>
+        </figure>
+        <figure class="">
+          <img class="tech-patch-mx-height" src="assets/images/css.png" alt="css">
+          <figcaption class="mt-2 text-center">CSS3</figcaption>
+        </figure>
+        <figure class="">
+          <img class="tech-patch-mx-height" src="assets/images/jquery-512.png" alt="jquery">
+          <figcaption class="mt-2 text-center">jQuery</figcaption>
+        </figure>
+        <figure class="">
+          <img class="tech-patch-mx-height" src="assets/images/git.png" alt="git">
+          <figcaption class="mt-2 text-center">Git</figcaption>
+        </figure>
+        <figure class="">
+          <img class="tech-patch-mx-height" src="assets/images/github.png" alt="github">
+          <figcaption class="mt-2 text-center">Github</figcaption>
+        </figure>
+        <figure class="">
+          <img class="tech-patch-mx-height" src="assets/images/reactjs.png" alt="react js">
+          <figcaption class="mt-2 text-center">React</figcaption>
+        </figure>
+        <figure class="">
+          <img class="tech-patch-mx-height" src="assets/images/ajax-431.png" alt="ajax">
+          <figcaption class="mt-2 text-center">Ajax</figcaption>
+        </figure>
+        <figure class="">
+          <img class="tech-patch-mx-height" src="assets/images/json-426.png" alt="json">
+          <figcaption class="mt-2 text-center">Json</figcaption>
+        </figure>
+      </div>
+      <p class="text-center">Frameworks I work with:</p>
+      <div class="d-flex justify-content-center my-5">
+        <figure class="mr-5">
+          <img class="tech-patch-mx-height" src="assets/images/bootstrap.png" alt="bootstrap">
+          <figcaption class="mt-2 text-center">Bootstrap</figcaption>
+        </figure>
+        <figure class="">
+          <img class="tech-patch-mx-height" src="assets/images/materialize-838.png" alt="materialize">
+          <figcaption class="mt-2 text-center">Materialize</figcaption>
+        </figure>
+      </div>
+      <p class="text-center">Code editors I work with:</p>
+      <div class="d-flex justify-content-center my-5">
+        <figure class="mr-5">
+          <img class="tech-patch-mx-height" src="assets/images/atom.png" alt="">
+          <figcaption class="mt-2 text-center">Atom</figcaption>
+        </figure>
+        <figure class="">
+          <img class="tech-patch-mx-height" src="assets/images/vscode-2000px.png" alt="">
+          <figcaption class="mt-2 text-center">Visual</figcaption>
+        </figure>
 
+      </div>
+    </section>
+
+    <section class="container-img" id="interests">
+      <h2 class="my-5 text-center font-weight-bold titles ltr-spc-titles my-interests-title">My interests</h2>
+      <div class="d-flex content-justify-around">
+        <div class="col h-100 no-padding no-gutters">
+          <img src="assets/images/newspaper.png" alt="News on technology" class="col-12 h-100 no-gutters no-padding interest-img-mx-height">
+          <!-- http://s3.amazonaws.com/digitaltrends-uploads-prod/2016/01/News-Apps-Header.jpg -->
         </div>
-      </section>
-      
-      <section class="container-img" id="interests">
-        <h2 class="my-5 text-center font-weight-bold titles ltr-spc-titles my-interests-title">My interests</h2>
-        <div class="d-flex content-justify-around">
-          <div class="col h-100 no-padding no-gutters">
-            <img src="assets/images/newspaper.png" alt="News on technology" class="col-12 h-100 no-gutters no-padding interest-img-mx-height">
-            <!-- http://s3.amazonaws.com/digitaltrends-uploads-prod/2016/01/News-Apps-Header.jpg -->
-          </div>
-          <div class="col h-100 no-padding no-gutters">
-            <img src="assets/images/helping.jpg" alt="Helping others" class="col-12 h-100 no-gutters no-padding interest-img-mx-height">
-          </div>
-          <div class="col h-100 no-padding no-gutters">
-            <img src="https://icdn3.digitaltrends.com/image/xbox-one-wireless-controller-3-1500x1000.jpg?ver=1" alt="Videogames" class="col-12 h-100 no-gutters no-padding interest-img-mx-height">
-          </div>
+        <div class="col h-100 no-padding no-gutters">
+          <img src="assets/images/helping.jpg" alt="Helping others" class="col-12 h-100 no-gutters no-padding interest-img-mx-height">
         </div>
-        <!-- <div class="row container-img">
+        <div class="col h-100 no-padding no-gutters">
+          <img src="https://icdn3.digitaltrends.com/image/xbox-one-wireless-controller-3-1500x1000.jpg?ver=1" alt="Videogames" class="col-12 h-100 no-gutters no-padding interest-img-mx-height">
+        </div>
+      </div>
+      <!-- <div class="row container-img">
           <div class="col h-100 no-padding no-gutters">
             <img src="assets/images/gastronomy.png" alt="Gastronomy" class="col-12 h-100 no-gutters no-padding interest-img-mx-height">
                 <!-- http://www.twentyfirstcenturygent.com/wp-content/uploads/2017/04/IMG_4310-BD-%C2%A9-mathildemochon.jpg -->
-                <!-- http://www.pilsen.eu/Files/MestoPlzen/web2013/Turista/aktuality/2015/150511_apetit_festival.jpg -->
-          <!-- </div> -->
-          <!-- <div class="col h-100 no-padding no-gutters">
+      <!-- http://www.pilsen.eu/Files/MestoPlzen/web2013/Turista/aktuality/2015/150511_apetit_festival.jpg -->
+      <!-- </div> -->
+      <!-- <div class="col h-100 no-padding no-gutters">
             <img src="assets/images/culture.jpg" alt="Languages and cultures" class="col-12 h-100 no-gutters no-padding interest-img-mx-height">
           </div>
           <div class="col h-100 no-padding no-gutters">
@@ -223,74 +242,83 @@
           </div>
         </div> -->
 
-      </section>
+    </section>
 
-      <section class="my-5 block py-5">
-        <hr>
+    <section class="my-5 block py-5">
+      <hr>
 
-      </section>
+    </section>
 
-      <section class="mt-5" id="contact">
-        <h2 class="text-center font-weight-bold titles ltr-spc-titles">Let's work together!</h2>
-        <p class="text-center mt-4 ltr-spc-text">Contact me at:</p>
-        <p class="text-center"><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:lizbeth.fp@gmail.com" class="text-center ml-2 ltr-spc-text email">lizbeth.fp@gmail.com</a></p>
-        <p class="text-center"><i class="fa fa-mobile" aria-hidden="true"></i><span class="text-center ml-2 ltr-spc-text">960992853</span></p>
+    <section class="mt-5" id="contact">
+      <h2 class="text-center font-weight-bold titles ltr-spc-titles">Let's work together!</h2>
+      <p class="text-center mt-4 ltr-spc-text">Contact me at:</p>
+      <p class="text-center">
+        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+        <a href="mailto:lizbeth.fp@gmail.com" class="text-center ml-2 ltr-spc-text email">lizbeth.fp@gmail.com</a>
+      </p>
+      <p class="text-center">
+        <i class="fa fa-mobile" aria-hidden="true"></i>
+        <span class="text-center ml-2 ltr-spc-text">960992853</span>
+      </p>
 
-      </section>
+    </section>
 
-      <section class="d-flex justify-content-center my-5">
-        <figure class="mr-5">
-          <a href="https://www.linkedin.com/in/lizbeth-felix-pena/" target="_blank">
-            <img src="assets/images/linkedin.svg" alt="LinkedIn account" class="contact-patch-mx-height">
+    <section class="d-flex justify-content-center my-5">
+      <figure class="mr-5">
+        <a href="https://www.linkedin.com/in/lizbeth-felix-pena/" target="_blank">
+          <img src="assets/images/linkedin.svg" alt="LinkedIn account" class="contact-patch-mx-height">
+        </a>
+        <figcaption class="mt-2 text-center">LinkedIn</figcaption>
+      </figure>
+      <figure class="mr-5">
+        <a href="https://github.com/LizbethFP?tab=repositories" target="_blank">
+          <img src="assets/images/github.svg" alt="Github account" class="contact-patch-mx-height">
+        </a>
+        <figcaption class="mt-2 text-center">Github</figcaption>
+      </figure>
+      <figure>
+        <a href="https://www.visualcv.com/lizbeth-felix-pea" target="_blank">
+          <img src="assets/images/cv.svg" alt="cv" class="contact-patch-mx-height-cv">
+        </a>
+        <figcaption class="mt-2 text-center">CV</figcaption>
+      </figure>
+
+
+    </section>
+
+    <div class="container mt-3 mb-3">
+      <div class="row">
+        <div class="col">
+          <a href="#hero" class="btn-up pull-right">
+            <i class="fa fa-angle-up" aria-hidden="true"></i>
           </a>
-          <figcaption class="mt-2 text-center">LinkedIn</figcaption>
-        </figure>
-        <figure class="mr-5">
-          <a href="https://github.com/LizbethFP?tab=repositories" target="_blank">
-            <img src="assets/images/github.svg" alt="Github account" class="contact-patch-mx-height">
-          </a>
-          <figcaption class="mt-2 text-center">Github</figcaption>
-        </figure>
-        <figure>
-          <a href="https://www.visualcv.com/lizbeth-felix-pea" target="_blank">
-            <img src="assets/images/cv.svg" alt="cv" class="contact-patch-mx-height-cv">
-          </a>
-          <figcaption class="mt-2 text-center">CV</figcaption>
-        </figure>
-        
-
-      </section>
-
-      <div class="container mt-3 mb-3">
-        <div class="row">
-          <div class="col">
-            <a href="#hero" class="btn-up pull-right">
-              <i class="fa fa-angle-up" aria-hidden="true"></i>
-            </a>
-          </div>
         </div>
       </div>
-      
-    </main>
+    </div>
 
-    <footer class="p-5">
-      <p class="text-center ltr-spc-text">Do you want to see my thought process on this portfolio?<a href="https://github.com/LizbethFP/portfolio" target="_blank" class="ml-2 portfolio-link">Check it out here.</a></p>
-      <p class="text-center ltr-spc-text">Copyright&copy; - Lizbeth Félix Peña</p>
-    </footer>
+  </main>
+
+  <footer class="p-5">
+    <p class="text-center ltr-spc-text">Do you want to see my thought process on this portfolio?
+      <a href="https://github.com/LizbethFP/portfolio" target="_blank" class="ml-2 portfolio-link">Check it out here.</a>
+    </p>
+    <p class="text-center ltr-spc-text">Copyright&copy; - Lizbeth Félix Peña</p>
+  </footer>
 
 
-    <!-- jQuery -->
-    <script type="text/javascript" src="vendors/js/jquery-3.2.1.min.js"></script>
-    <!-- JS de bootstrap -->
-    <script type="text/javascript" src="vendors/bootstrap/js/bootstrap.min.js"></script>
-    <!-- JS de tooltip y popover -->
-    <script type="text/javascript" src="vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript" src="js/tooltip-popover.js"></script>
-    <!-- JS de plug-in de cardify -->
-    <script type="text/javascript" src="js/cardify.js"></script>
-    <!-- JS de plug-in para dar animación -->
-    <script type="text/javascript" src="js/jquery.transit.min.js"></script>
-    <!-- JS de proyecto -->
-    <script type="text/javascript" src="js/app.js"></script>
-  </body>
+  <!-- jQuery -->
+  <script type="text/javascript" src="vendors/js/jquery-3.2.1.min.js"></script>
+  <!-- JS de bootstrap -->
+  <script type="text/javascript" src="vendors/bootstrap/js/bootstrap.min.js"></script>
+  <!-- JS de tooltip y popover -->
+  <script type="text/javascript" src="vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="js/tooltip-popover.js"></script>
+  <!-- JS de plug-in de cardify -->
+  <script type="text/javascript" src="js/cardify.js"></script>
+  <!-- JS de plug-in para dar animación -->
+  <script type="text/javascript" src="js/jquery.transit.min.js"></script>
+  <!-- JS de proyecto -->
+  <script type="text/javascript" src="js/app.js"></script>
+</body>
+
 </html>

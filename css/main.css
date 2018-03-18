@@ -86,11 +86,14 @@ footer {
 }
 
 #hero {
-  background-image: url(../assets/images/hero.jpg);
-  background-position: center center;
-  background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)),
+  url(../assets/images/hero.jpg) center center fixed;
+/*   
+  background-position: center center; */
+  /* background-size: cover; */
   /* background-color: rgba(0,0,0,0.1);; */
-  min-height: 500px;
+  height: 100%;
+  min-height: 100vh;
 }
 
 #hero > h1, h3 {
@@ -211,12 +214,20 @@ footer p {
     border-radius: 25px 0px 25px 0px;
   }
 
-  #hero {
-    min-height: 650px;
+  #hero > div  h1 {
+    font-size: 6em;
+  }
+
+  #hero> div h3 {
+    font-size: 3em;
   }
 
   #about-me, #tech-skills {
     min-height: 600px;
+  }
+
+  .titles {
+    font-size: 4rem;
   }
 
   .md-line-height {
@@ -241,4 +252,8 @@ footer p {
     min-height: 200px;
   }
 
+}
+
+.imgabout {
+  width: 20rem;
 }
