@@ -19,6 +19,32 @@ footer {
 }
 
 /* helpers */
+.titles {
+  color: #1C1C1C;
+  font-weight: 700;
+}
+
+.content {
+  color: #2A2A2A;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.main-title {
+  font-weight: 900;
+  letter-spacing: 5px;
+}
+
+.sub-title {
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.mini-title {
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
 .ltr-spc-titles {
   letter-spacing: 2px;
 }
@@ -41,12 +67,7 @@ footer {
 
 .white-highlight-txt {
   color: #fff;
-  font-size: 1.2em;
-}
-
-.no-gutters {
-  margin-left: 0;
-  margin-right: 0;
+  font-weight: 600;
 }
 
 .no-padding {
@@ -61,6 +82,7 @@ footer {
 
 .navbar-nav li:hover a {
   background-color: #48E5C2;
+  color: #1C1C1C!important;
 }
 
 #hero {
@@ -68,21 +90,11 @@ footer {
   background-position: center center;
   background-size: cover;
   /* background-color: rgba(0,0,0,0.1);; */
+  min-height: 500px;
 }
 
 #hero > h1, h3 {
   color: #EAEAEA;
-}
-
-.aligner {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-}
-
-.aligner-item {
-  display: block;
-  max-width: 100%;
 }
 
 .mx-height-img {
@@ -98,7 +110,7 @@ footer {
 }
 
 .rounded-top {
-  background-color: #F7FAFA;
+  background-color: #F0EFF1;
   border: 1px solid #fff;
 }
 
@@ -131,6 +143,23 @@ footer {
 
 #tech-skills h2 {
   color: #fff;
+}
+
+#tech-skills p {
+  color: #2A2A2A;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+#tech-skills figcaption {
+  color: #333333;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+.tech-patch-mx-height {
+  max-height: 250px;
+  max-width: 80px;
 }
 
 #contact .fa-envelope-o {
@@ -167,6 +196,16 @@ footer p {
   color: #35A78E;
 }
 
+.contact-patch-mx-height {
+  max-height: 250px;
+  max-width: 80px;
+}
+
+.contact-patch-mx-height-cv {
+  min-height: 50px;
+  min-width: 80px;
+}
+
 @media (min-width: 992px) {
   .navbar-nav li:hover a {
     border-radius: 25px 0px 25px 0px;
@@ -189,8 +228,8 @@ footer p {
   }
 
   .tech-patch-mx-height {
-    max-height: 400px;
-    max-width: 150px;
+    max-height: 300px;
+    max-width: 130px;
   }
 
   .interest-img-mx-height {
@@ -199,7 +238,7 @@ footer p {
   }
 
   #contact {
-    min-height: 300px;
+    min-height: 200px;
   }
 
 }
