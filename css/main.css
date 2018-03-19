@@ -184,12 +184,13 @@ h3 {
   max-height: 250px;
   max-width: 80px;
 }
+
 .tech-patch-mx-height:hover {
   opacity: 0.5;
 }
 
 .contact-prgh {
-  font-size: 24px;
+  font-size: 26px;
 }
 
 #contact .fa-envelope-o {
@@ -200,6 +201,40 @@ h3 {
 #contact .fa-mobile {
   color: #648F98;
   font-size: 30px;
+}
+
+.email,
+.portfolio-link {
+  color: #42D1B1;
+  font-size: 22px;
+}
+
+.email:hover,
+.portfolio-link:hover {
+  color: #35A78E;
+}
+
+.phone {
+  font-size: 22px;
+}
+
+.contact-patch-mx-height {
+  max-height: 250px;
+  max-width: 60px;
+}
+
+.contact-patch-mx-height:hover,
+.contact-patch-mx-height-cv:hover {
+  opacity: 0.6;
+}
+
+.contact-patch-mx-height-cv {
+  max-height: 62px;
+  min-width: 82px;
+}
+
+.portfolio-link {
+  font-size: 18px;
 }
 
 a.btn-up {
@@ -216,32 +251,6 @@ a.btn-up:hover {
 
 footer p {
   color: #bbb;
-}
-
-
-.email,
-.portfolio-link {
-  color: #42D1B1;
-}
-
-.email:hover,
-.portfolio-link:hover {
-  color: #35A78E;
-}
-
-.contact-patch-mx-height {
-  max-height: 250px;
-  max-width: 80px;
-}
-
-.contact-patch-mx-height:hover,
-.contact-patch-mx-height-cv:hover {
-  opacity: 0.6;
-}
-
-.contact-patch-mx-height-cv {
-  max-height: 84px;
-  min-width: 82px;
 }
 
 @media (min-width: 992px) {
@@ -268,7 +277,7 @@ footer p {
     margin-top: 0;
   }
   .tech-skills-title {
-    font-size:  4rem;
+    font-size: 4rem;
   }
   .tech-patch-mx-height {
     max-height: 300px;
@@ -280,5 +289,11 @@ footer p {
   }
   #contact {
     min-height: 200px;
+  }
+  .contact-patch-mx-height {
+    max-width: 80px;
+  }
+  .contact-patch-mx-height-cv {
+    max-height: 84px;
   }
 }
