@@ -78,6 +78,11 @@ footer {
 }
 
 /* Clases específicas */
+/* 
+.menu-white {
+  background-color: rgba(255, 254, 253, 1);
+  box-shadow: 0 0 0 1px rgba(8, 8, 8, 0.829);
+} */
 
 .navbar-brand:hover {
   color: #48E5C2 !important;
@@ -114,6 +119,21 @@ h3 {
 .imgabout {
   width: 20rem;
   height: 20rem;
+}
+
+.award-hr {
+  background-color: #fff;
+  height: 0.5px;
+  width: 70%
+}
+
+.award-p {
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 2px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
 }
 
 .mt-project {
@@ -262,6 +282,10 @@ footer p {
   }
   #hero>div h3 {
     font-size: 3em;
+  }
+  .award-p {
+      padding-left: 0rem;
+      padding-right: 0rem;
   }
   #about-me,
   #tech-skills {
