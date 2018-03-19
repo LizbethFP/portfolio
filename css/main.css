@@ -184,6 +184,10 @@ h3 {
   max-width: 80px;
 }
 
+.contact-prgh {
+  font-size: 24px;
+}
+
 #contact .fa-envelope-o {
   color: #648F98;
   font-size: 20px;
@@ -209,6 +213,7 @@ a.btn-up:hover {
 footer p {
   color: #bbb;
 }
+
 
 .email,
 .portfolio-link {
