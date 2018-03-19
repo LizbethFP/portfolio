@@ -183,6 +183,9 @@ h3 {
   max-height: 250px;
   max-width: 80px;
 }
+.tech-patch-mx-height:hover {
+  opacity: 0.5;
+}
 
 .contact-prgh {
   font-size: 24px;
