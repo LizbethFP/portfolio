@@ -25,7 +25,7 @@
   <header>
     <nav class="navbar navbar-expand-md bg-dark navbar-dark hdr-bck-grnd-color">
       <!-- Brand -->
-      <a class="navbar-brand" href="#">LFP</a>
+      <a class="navbar-brand" href="index.html">LFP</a>
 
       <!-- Toggler/collapsibe Button -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -62,7 +62,7 @@
     <section class="d-flex align-items-center py-5" id="hero">
       <div class="col-12">
         <h1 class="text-center main-title">Lizbeth Félix Peña</h1>
-        <h3 class="text-center mt-3 sub-title">Front-end developer and language fanatic</h3>
+        <h3 class="text-center mt-5 sub-title">Front-end developer and language fanatic</h3>
         <!-- <h3 class="text-center mini-title">"Before software can be reusable, it first has to be usable". - Ralph Johnson -->
       </div>
     </section>
@@ -78,8 +78,10 @@
           a dynamic and flexible person who loves teamwork and finds inspiration and drive through people's joy and uplifting
           music.
         </p>
-        <div class="imgabout">
-          <img src="assets/images/rsz-lizbeth-felix.jpg" alt="Junior Front-end Developer" class="img-fluid rounded" id="profile-photo">
+        <div class="d-flex justify-content-center ml-5 imgabout ">
+          <div class="align-self-center">
+            <img src="assets/images/rsz-lizbeth-felix.jpg" alt="Junior Front-end Developer" class="img-fluid rounded" id="profile-photo">
+          </div>
         </div>
       </div>
     </section>
@@ -87,33 +89,16 @@
     <section class="container-fluid my-5" id="projects">
       <div class="row">
         <h2 class="col-12 text-center font-weight-bold mb-4 titles ltr-spc-titles">My projects</h2>
-        <!-- cambiar a container!!! -->
-        <div class="container-fluid">
+        <!-- cambiar a container o container-fluid!!! -->
+        <div class="container mt-3">
           <div class="row">
-            <div class="col-12 col-md-4 d-flex pb-4 mt-project container-img">
-              <div class="card rounded-top">
-                <div class="card-body">
-                  <h4 class="text-center pt-2 ltr-spc-subtitles">Twitter</h4>
-                  <hr>
-                  <img src="https://www.marketingdirecto.com/wp-content/uploads/2014/10/HTML.jpg" alt="Social network" class="col-10 offset-1 rounded img-fluid">
-                  <p class="mb-4 ltr-spc-text sm-line-height project-description">Twitter replica making posts with the current time. Project undertaken at an early stage of the bootcamp.
-                  </p>
-                  <div class="row">
-                    <div class="col-12 text-center">
-                      <a href="https://lizbethfp.github.io/twitter/" target="_blank" class="odd-btn btn-style m-2">Demo</a>
-                      <a href="https://github.com/LizbethFP/twitter" target="_blank" class="btn-style m-2">Code</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
             <div class="col-12 col-md-4 d-flex mt-project pb-4 container-img">
               <div class="card rounded-top">
                 <div class="card-body">
                   <h4 class="text-center pt-2 ltr-spc-subtitles">Foodmap</h4>
                   <hr>
-                  <img src="https://www.marketingdirecto.com/wp-content/uploads/2014/10/HTML.jpg" alt="Ready to order?" class="col-10 offset-1 rounded img-fluid">
-                  <p class="mb-4 ltr-spc-text sm-line-height project-description">Food app showing relevant information on restaurants. Project undertaken at a middle stage of the bootcamp.
+                  <img src="assets/images/foodmap.jpg" alt="Ready to order?" class="col-10 offset-1 rounded img-fluid">
+                  <p class="mb-4 text-center ltr-spc-text sm-line-height project-description">Food app showing relevant information on restaurants and their address. Project undertaken at a middle stage of the bootcamp.
                   </p>
                   <div class="row">
                     <div class="col-12 text-center">
@@ -129,14 +114,31 @@
                 <div class="card-body">
                   <h4 class="text-center pt-2 ltr-spc-subtitles">Movie-geek</h4>
                   <hr>
-                  <img src="https://www.marketingdirecto.com/wp-content/uploads/2014/10/HTML.jpg" alt="Great team work!" class="col-10 offset-1 rounded img-fluid">
-                  <p class="mb-4 ltr-spc-text sm-line-height project-description">Movie app allowing geeks keep a record on their movie interests and history, as well as rating them. Teamwork
+                  <img src="assets/images/moviegeek-view.png" alt="Great team work!" class="col-10 offset-1 rounded img-fluid">
+                  <p class="mb-4 text-center ltr-spc-text sm-line-height project-description">Movie app allowing geeks keep a record on their movie interests and history, as well as rating them. Teamwork
                     project undertaken at an internal hackathon.
                   </p>
                   <div class="row">
                     <div class="col-12 text-center">
                       <a href="https://shannonriv.github.io/movie-geek/" target="_blank" class="odd-btn btn-style m-2">Demo</a>
                       <a href="https://github.com/LizbethFP/movie-geek" target="_blank" class="btn-style m-2">Code</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 d-flex pb-4 mt-project container-img">
+              <div class="card rounded-top">
+                <div class="card-body">
+                  <h4 class="text-center pt-2 ltr-spc-subtitles">Api Swapi</h4>
+                  <hr>
+                  <img src="assets/images/apiswapi.jpg" alt="Social network" class="col-10 offset-1 rounded img-fluid">
+                  <p class="mb-4 text-center ltr-spc-text sm-line-height project-description">Swapi App showing relevant information on the characters from the Star Wars movies. Project undertaken at a late stage of the bootcamp.
+                  </p>
+                  <div class="row">
+                    <div class="col-12 text-center">
+                      <a href="https://lizbethfp.github.io/api-swapi/public/" target="_blank" class="odd-btn btn-style m-2">Demo</a>
+                      <a href="https://github.com/LizbethFP/api-swapi" target="_blank" class="btn-style m-2">Code</a>
                     </div>
                   </div>
                 </div>
@@ -278,7 +280,7 @@
       </figure>
       <figure>
         <a href="https://www.visualcv.com/lizbeth-felix-pea" target="_blank">
-          <img src="assets/images/cv.svg" alt="cv" class="contact-patch-mx-height-cv">
+          <img src="assets/images/cv-white.svg" alt="cv" class="contact-patch-mx-height-cv">
         </a>
         <figcaption class="mt-2 text-center">CV</figcaption>
       </figure>
