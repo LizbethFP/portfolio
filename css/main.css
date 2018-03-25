@@ -96,6 +96,14 @@ h3 {
 
 #about-me {
   background-color: #48E5C2;
+  /* opacity: 0;
+  transform: translateY(50px);
+  transition: all 1s ease-out; */
+}
+
+#aboutme .fade-in {
+  opacity: 1;
+  transform: translateX(0);
 }
 
 .imgabout {
