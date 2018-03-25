@@ -1,5 +1,4 @@
 /* Clases reutilizables */
-
 body {
   background-color: #fff;
   font-family: 'Nunito', sans-serif;
@@ -7,12 +6,6 @@ body {
 
 header .hdr-bck-grnd-color {
   background-color: #333333 !important;
-}
-
-.block hr {
-  background-color: #124E78;
-  height: 3px;
-  width: 25%;
 }
 
 footer {
@@ -72,18 +65,7 @@ footer {
   font-weight: 600;
 }
 
-.no-padding {
-  padding-left: 0;
-  padding-right: 0;
-}
-
 /* Clases específicas */
-/* 
-.menu-white {
-  background-color: rgba(255, 254, 253, 1);
-  box-shadow: 0 0 0 1px rgba(8, 8, 8, 0.829);
-} */
-
 .navbar-brand:hover {
   color: #48E5C2 !important;
 }
@@ -121,10 +103,17 @@ h3 {
   height: 20rem;
 }
 
+.interests {
+  color: #fff;
+  border-radius: 0.2em;
+  background-color: #5F94BE;
+  margin:  0.5rem;
+}
+
 .award-hr {
   background-color: #fff;
   height: 0.5px;
-  width: 70%
+  width: 80%
 }
 
 .award-p {
@@ -194,6 +183,10 @@ h3 {
   letter-spacing: 2px;
 }
 
+#tech-skills figure {
+  margin-right:2rem;
+}
+
 #tech-skills figcaption {
   color: #F7FAFA;
   font-weight: 400;
@@ -258,7 +251,7 @@ h3 {
 }
 
 a.btn-up {
-  /* background: linear-gradient(-100deg, #F59C98, rgb(252, 187, 186)); */
+  /* background: linear-gradient(-100deg, #48E5C2, #69E9CD); */
   background: #48E5C2;
   border-radius: 50%;
   color: #ffff;
@@ -273,20 +266,39 @@ footer p {
   color: #bbb;
 }
 
+@media (min-width: 768px) {
+  img#profile-photo {
+    margin-left: 76px;
+  }
+
+  .interests {
+    margin: 1rem;
+  }
+
+  #tech-skills figure {
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+  }
+}
+
 @media (min-width: 992px) {
   .navbar-nav li:hover a {
     border-radius: 25px 0px 25px 0px;
   }
+
   #hero>div h1 {
     font-size: 6em;
   }
+
   #hero>div h3 {
     font-size: 3em;
   }
+
   .award-p {
       padding-left: 0rem;
       padding-right: 0rem;
   }
+
   #about-me,
   #tech-skills {
     min-height: 600px;
@@ -294,30 +306,39 @@ footer p {
   .titles {
     font-size: 4rem;
   }
+
   .md-line-height {
     line-height: 34px;
   }
+
   .mt-project {
     margin-top: 0;
   }
+
   .tech-skills-title {
     font-size: 4rem;
   }
+
   .tech-patch-mx-height {
     max-height: 300px;
     max-width: 130px;
   }
-  .interest-img-mx-height {
-    max-height: 280px;
-    /* max-width: 340px; */
-  }
+  
   #contact {
     min-height: 200px;
   }
+
   .contact-patch-mx-height {
     max-width: 80px;
   }
+  
   .contact-patch-mx-height-cv {
     max-height: 84px;
+  }
+}
+
+@media(min-width: 1140px) {
+  .content {
+    line-height: 36px;
   }
 }

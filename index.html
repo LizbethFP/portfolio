@@ -22,7 +22,7 @@
 </head>
 
 <body>
-  <header class="w-10">
+  <header class="w-10" id="header">
     <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top hdr-bck-grnd-color">
       <!-- Brand -->
       <a class="navbar-brand" href="index.html">LFP</a>
@@ -45,9 +45,9 @@
           <li class="nav-item">
             <a class="nav-link nav-link-color" href="#tech-skills">My tech skills</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link nav-link-color" href="#interests">My interests</a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link nav-link-color" href="#contact">
               <i class="fa fa-envelope d-sm-none" aria-hidden="true"></i> Contact me</a>
@@ -72,15 +72,28 @@
         <h2 class="col-12 text-center my-5 about-me-title font-weight-bold titles ltr-spc-titles">About me</h2>
       </div>
       <div class="row mt-4">
-        <div class="offset-1 col-10 col-md-4 offset-md-2">
-          <p class="text-justify mb-5 content ltr-spc-text about-me-info">I’m a Front-end Developer from Laboratoria, and a professional Translator and Interpreter. I love making sure everything
+        <div class="offset-1 col-10 col-md-4 offset-md-2 mb-3">
+          <p class="text-justify content ltr-spc-text about-me-info">I’m a Front-end Developer from Laboratoria, and a professional Translator and Interpreter. I love making sure everything
             works in a website or application so people can best benefit from it.
             <span class="white-highlight-txt">Technology and its use towards helping people are the two things that thrill me and move me the most!</span>
             I’m a dynamic and flexible person who loves teamwork and finds inspiration and drive through people's joy and uplifting music.
           </p>
         </div>
         <div class="col-12 col-md-4 d-flex justify-content-center">
-          <img src="assets/images/rsz-lizbeth-felix.jpg" alt="Junior Front-end Developer" class="imgabout rounded" id="profile-photo">
+          <img src="assets/images/lfp.jpg" alt="Junior Front-end Developer" class="imgabout rounded-circle" id="profile-photo">
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-10 offset-1">
+          <p class="mx-auto award-p">Some of my interests are:</p>
+          <div class="d-flex flex-row flex-wrap justify-content-around">
+            <span class="p-1 text-center interests">News on technology</span>
+            <span class="p-1 text-center interests">Helping others</span>
+            <span class="p-1 text-center interests">Videogames</span>
+            <span class="p-1 text-center interests">Gastronomy</span>
+            <span class="p-1 text-center interests">Languages and cultures</span>
+            <span class="p-1 text-center interests">All forms of art</span>
+          </div>
         </div>
       </div>
       <hr class="award-hr mt-4">
@@ -167,44 +180,48 @@
 
     <section class="p-4 w-100" id="tech-skills">
       <h2 class="my-5 text-center font-weight-bold  ltr-spc-titles tech-skills-title">My tech skills</h2>
-      <p class="text-center">Stack I work with:</p>
-      <div class="d-flex flex-row flex-wrap justify-content-around my-5">
-        <figure class="">
-          <img class="tech-patch-mx-height" src="assets/images/html5.png" alt="html5">
-          <figcaption class="mt-2 text-center">Html5</figcaption>
-        </figure>
-        <figure class="">
-          <img class="tech-patch-mx-height" src="assets/images/javascript512.png" alt="javascript">
-          <figcaption class="mt-2 text-center">Javascript</figcaption>
-        </figure>
-        <figure class="">
-          <img class="tech-patch-mx-height" src="assets/images/css.png" alt="css">
-          <figcaption class="mt-2 text-center">CSS3</figcaption>
-        </figure>
-        <figure class="">
-          <img class="tech-patch-mx-height" src="assets/images/jquery-512.png" alt="jquery">
-          <figcaption class="mt-2 text-center">jQuery</figcaption>
-        </figure>
-        <figure class="">
-          <img class="tech-patch-mx-height" src="assets/images/git.png" alt="git">
-          <figcaption class="mt-2 text-center">Git</figcaption>
-        </figure>
-        <figure class="">
-          <img class="tech-patch-mx-height" src="assets/images/github.png" alt="github">
-          <figcaption class="mt-2 text-center">Github</figcaption>
-        </figure>
-        <figure class="">
-          <img class="tech-patch-mx-height" src="assets/images/reactjs.png" alt="react js">
-          <figcaption class="mt-2 text-center">React</figcaption>
-        </figure>
-        <figure class="">
-          <img class="tech-patch-mx-height" src="assets/images/ajax-431.png" alt="ajax">
-          <figcaption class="mt-2 text-center">Ajax</figcaption>
-        </figure>
-        <figure class="">
-          <img class="tech-patch-mx-height" src="assets/images/json-426.png" alt="json">
-          <figcaption class="mt-2 text-center">Json</figcaption>
-        </figure>
+      <div class="row">
+        <div class="col-10 offset-1">
+          <p class="text-center">Stack I work with:</p>
+          <div class="d-flex flex-row flex-wrap justify-content-around my-5">
+            <figure class="mr-3">
+              <img class="tech-patch-mx-height" src="assets/images/html5.png" alt="html5">
+              <figcaption class="mt-2 text-center">Html5</figcaption>
+            </figure>
+            <figure class="mr-3">
+              <img class="tech-patch-mx-height" src="assets/images/javascript512.png" alt="javascript">
+              <figcaption class="mt-2 text-center">Javascript</figcaption>
+            </figure>
+            <figure class="mr-3">
+              <img class="tech-patch-mx-height" src="assets/images/css.png" alt="css">
+              <figcaption class="mt-2 text-center">CSS3</figcaption>
+            </figure>
+            <figure class="mr-3">
+              <img class="tech-patch-mx-height" src="assets/images/jquery-512.png" alt="jquery">
+              <figcaption class="mt-2 text-center">jQuery</figcaption>
+            </figure>
+            <figure class="mr-3">
+              <img class="tech-patch-mx-height" src="assets/images/git.png" alt="git">
+              <figcaption class="mt-2 text-center">Git</figcaption>
+            </figure>
+            <figure class="mr-3">
+              <img class="tech-patch-mx-height" src="assets/images/github.png" alt="github">
+              <figcaption class="mt-2 text-center">Github</figcaption>
+            </figure>
+            <figure class="mr-3">
+              <img class="tech-patch-mx-height" src="assets/images/reactjs.png" alt="react js">
+              <figcaption class="mt-2 text-center">React</figcaption>
+            </figure>
+            <figure class="mr-3">
+              <img class="tech-patch-mx-height" src="assets/images/ajax-431.png" alt="ajax">
+              <figcaption class="mt-2 text-center">Ajax</figcaption>
+            </figure>
+            <figure class="mr-3">
+              <img class="tech-patch-mx-height" src="assets/images/json-426.png" alt="json">
+              <figcaption class="mt-2 text-center">Json</figcaption>
+            </figure>
+          </div>
+        </div>
       </div>
       <p class="text-center">Frameworks I work with:</p>
       <div class="d-flex justify-content-center my-5">
@@ -229,42 +246,6 @@
         </figure>
 
       </div>
-    </section>
-
-    <section class="container-img w-100 d-none d-sm-none d-md-block d-lg-block d-xl-block" id="interests">
-      <h2 class="my-5 text-center font-weight-bold titles ltr-spc-titles my-interests-title">My interests</h2>
-      <div class="d-flex content-justify-around">
-        <div class="col h-100 no-padding no-gutters">
-          <img src="assets/images/newspaper.png" alt="News on technology" class="col-12 h-100 no-gutters no-padding interest-img-mx-height">
-          <!-- http://s3.amazonaws.com/digitaltrends-uploads-prod/2016/01/News-Apps-Header.jpg -->
-        </div>
-        <div class="col h-100 no-padding no-gutters">
-          <img src="assets/images/helping.jpg" alt="Helping others" class="col-12 h-100 no-gutters no-padding interest-img-mx-height">
-        </div>
-        <div class="col h-100 no-padding no-gutters">
-          <img src="https://icdn3.digitaltrends.com/image/xbox-one-wireless-controller-3-1500x1000.jpg?ver=1" alt="Videogames" class="col-12 h-100 no-gutters no-padding interest-img-mx-height">
-        </div>
-      </div>
-      <!-- <div class="row container-img">
-          <div class="col h-100 no-padding no-gutters">
-            <img src="assets/images/gastronomy.png" alt="Gastronomy" class="col-12 h-100 no-gutters no-padding interest-img-mx-height">
-                <!-- http://www.twentyfirstcenturygent.com/wp-content/uploads/2017/04/IMG_4310-BD-%C2%A9-mathildemochon.jpg -->
-      <!-- http://www.pilsen.eu/Files/MestoPlzen/web2013/Turista/aktuality/2015/150511_apetit_festival.jpg -->
-      <!-- </div> -->
-      <!-- <div class="col h-100 no-padding no-gutters">
-            <img src="assets/images/culture.jpg" alt="Languages and cultures" class="col-12 h-100 no-gutters no-padding interest-img-mx-height">
-          </div>
-          <div class="col h-100 no-padding no-gutters">
-            <img src="" alt="All forms of art"
-              class="col-12 h-100 no-gutters no-padding interest-img-mx-height">
-          </div>
-        </div> -->
-
-    </section>
-
-    <section class="my-5 block py-5 w-100">
-      <hr>
-
     </section>
 
     <section class="mt-5 w-100" id="contact">
@@ -307,7 +288,7 @@
     <div class="container mt-3 mb-3">
       <div class="row">
         <div class="col">
-          <a href="#hero" class="btn-up pull-right">
+          <a href="#header" class="btn-up pull-right">
             <i class="fa fa-angle-up" aria-hidden="true"></i>
           </a>
         </div>
