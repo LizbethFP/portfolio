@@ -77,18 +77,20 @@ footer {
 .navbar-nav li:hover a {
   background-color: #48E5C2;
   color: #1C1C1C !important;
+  border-radius: 25px 0px 25px 0px;
+  padding-left: 5px;
 }
 
 .lfp-ico {
   height: 45px;
 }
 
-.lfp-ico:hover {
+/* .lfp-ico:hover {
   background-color: rgba(72, 229, 194, 1);
   border-radius: 25px 0px 25px 0px;
   padding-right: .5rem;
   padding-left: .5rem;
-}
+} */
 
 #hero {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url(../assets/images/hero.jpg) center center fixed;
