@@ -10,11 +10,11 @@ $(window).on('load', function() {
     let scrollTop = $(document).scrollTop();
     var activeLi;
 
-    if (scrollTop < section2OffsetTop) {
+    if (scrollTop < (section2OffsetTop - 110)) {
       activeLi = $('.menu-items>li:nth-child(1)');
-    } else if (scrollTop < section3OffsetTop) {
+    } else if (scrollTop < (section3OffsetTop - 110)) {
       activeLi = $('.menu-items>li:nth-child(2)');
-    } else if (scrollTop < section4OffsetTop) {
+    } else if (scrollTop < (section4OffsetTop - 300)) {
       activeLi = $('.menu-items>li:nth-child(3)');
     } else {
       activeLi = $('.menu-items>li:nth-child(4)');
