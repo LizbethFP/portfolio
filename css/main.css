@@ -306,6 +306,9 @@ footer p {
     margin-top: 1rem;
     margin-left: 2.5rem;
   }
+  #social-network figure:nth-child(-n+3) {
+    margin-right: 3rem!important;
+  }
 }
 
 @media (min-width: 992px) {
