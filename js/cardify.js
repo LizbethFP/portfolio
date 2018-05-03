@@ -20,8 +20,8 @@
         'position': 'absolute',
         'font-size': '20px',
         'vertical-align': 'middle',
-        'margin-top': '-30%',
-        'margin-left': '35%',
+        // 'margin-top': '-30%',
+        // 'margin-left': '35%',
         // 'tranform': 'translate(60, -50px)'
       });
 
@@ -30,7 +30,7 @@
       if (EventTarget == elem || elem.parent() || elem.next) {
         /* FUNCIÓN PARA ESCONDER IMAGEN Y MOSTRAR FIGCAPTION AL PASAR MOUSE*/
         elem.mouseover(function () {
-          elem.parent().addClass('img-bckgrnd-color');
+          elem.parent().addClass('figure-cardify');
           elem.css('opacity', '0');
           elem.next().css({
             'opacity': '1',

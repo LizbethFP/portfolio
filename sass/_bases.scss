@@ -70,6 +70,11 @@ footer {
   font-weight: $font-weight-600;
 }
 
+.figure-cardify figcaption {
+  margin-top: -28%;
+  margin-left: 20%;
+}
+
 /* Clases específicas */
 
 .navbar-brand:hover {
@@ -274,12 +279,21 @@ a.btn-up:hover {
   background: $lighter-sea-jade-color;
 }
 
+@media (min-width:425px) {
+  .figure-cardify figcaption {
+    margin-left: 28%;
+  }
+}
+
 @media (min-width: 768px) {
   img#profile-photo {
     margin-left: 76px;
   }
   .interests {
     margin: 1rem;
+  }
+  .figure-cardify figcaption {
+    margin-left: 10%;
   }
   #tech-skills figure {
     margin-top: 1rem;
@@ -311,6 +325,9 @@ a.btn-up:hover {
   #projects,
   #contact {
     min-width: 400px;
+  }
+  .figure-cardify figcaption {
+    margin-left: 22%;
   }
   .titles {
     font-size: 4rem;
